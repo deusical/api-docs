@@ -15,7 +15,7 @@ If user is valid, it will return something similar to
 {
   "success": true,
   "data" {
-    ...
+    // ...
   }
 }
 ```
@@ -38,7 +38,7 @@ If team exists, it will return something similar to
 {
   "success": true,
   "data" {
-    ...
+    // ...
   }
 }
 ```
@@ -65,7 +65,7 @@ It'll return data similar to this:
 {
   "success": true,
   "data" {
-    ...
+    // ...
   }
 }
 ```
