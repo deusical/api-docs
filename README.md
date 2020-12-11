@@ -14,7 +14,7 @@ If user is valid, it will return something similar to
 ```json
 {
   "success": true,
-  "data" {
+  "data": {
     // ...
   }
 }
@@ -37,7 +37,7 @@ If team exists, it will return something similar to
 ```json
 {
   "success": true,
-  "data" {
+  "data": {
     // ...
   }
 }
@@ -64,7 +64,7 @@ It'll return data similar to this:
 ```json
 {
   "success": true,
-  "data" {
+  "data": {
     // ...
   }
 }
