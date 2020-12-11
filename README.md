@@ -14,7 +14,9 @@ If user is valid, it will return something similar to
 ```json
 {
   "success": true,
-  "data" {...}
+  "data" {
+    ...
+  }
 }
 ```
 with a status code of 200.
@@ -35,7 +37,9 @@ If team exists, it will return something similar to
 ```json
 {
   "success": true,
-  "data" {...}
+  "data" {
+    ...
+  }
 }
 ```
 with a status code of 200.
@@ -60,7 +64,9 @@ It'll return data similar to this:
 ```json
 {
   "success": true,
-  "data" {...}
+  "data" {
+    ...
+  }
 }
 ```
 with a status code of 200.
