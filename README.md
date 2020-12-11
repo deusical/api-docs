@@ -17,7 +17,7 @@ If user is valid, it will return something similar to
   "data" {...}
 }
 ```
-with a status code of 200
+with a status code of 200.
 If the user is invalid, it will return 
 ```json
 {
@@ -38,7 +38,7 @@ If team exists, it will return something similar to
   "data" {...}
 }
 ```
-with a status code of 200
+with a status code of 200.
 If the team doesn't exist, it will return
 ```json
 {
@@ -48,6 +48,7 @@ If the team doesn't exist, it will return
     }
 }
 ```
+with a status code of 400
 
 #### /leaderboards/[racers:season, racers:daily, teams:season, teams:daily]
 
@@ -62,5 +63,5 @@ It'll return data similar to this:
   "data" {...}
 }
 ```
-with a status code of 200
+with a status code of 200.
 If any errors happen, it'll return with a status code of 400.
